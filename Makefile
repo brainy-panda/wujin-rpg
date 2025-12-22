@@ -6,7 +6,10 @@ trade:
 test1:
 	g++ $(COMPILER_FLAGS) test1.cpp -o test1
 
+darray:
+	g++ $(COMPILER_FLAGS) darray.cpp -o darray
+
 clean:
-	rm -f trade test1
+	rm -f trade test1 darray
 
 .PHONY: clean
